@@ -2,8 +2,8 @@ void main() {
   List<dynamic> list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   evenNumber(list);
   squared(list);
-  List<dynamic> list_1 = oddNumber(list);
-  print(Sum(list_1));
+//  List<dynamic> list_1 = oddNumber(list);
+//  print(Sum(list_1));
 }
 
 void evenNumber(List<dynamic> myList) {
@@ -18,7 +18,7 @@ void squared(List<dynamic> myList) {
   print('Squared Numbers: $newList');
 }
 
-List oddNumber(List<dynamic> myList) {
+/*List oddNumber(List<dynamic> myList) {
   List<dynamic> newList = [];
   newList.addAll(myList.where((numb) => numb is num && numb % 2 != 0).toList());
   //print('Odd Numbers: $newList');
@@ -31,4 +31,4 @@ num Sum(List<dynamic> myList) {
     sum = sum + n;
   }
   return sum;
-}
+}*/
